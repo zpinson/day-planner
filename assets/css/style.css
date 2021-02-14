@@ -41,6 +41,10 @@ body {
     color: #000000;
     border-top: 1px dashed #000000;
   }
+
+  .time {
+  display: none;
+  } 
   
   .past {
     background-color: #d3d3d3;
