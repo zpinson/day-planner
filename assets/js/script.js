@@ -40,7 +40,7 @@ $(document).ready(function () {
     setInterval(update, 1000);
   });
 
-  //com
+  //compares the hours in the calandar with the current time and add a class accordinaly
   $(".time").each(function () {
     // console.log($(this).text());
     var hourVl = parseInt($(this).text());
@@ -60,21 +60,4 @@ $(document).ready(function () {
     }
     // console.log(hourVl);
   });
-
- 
-
-  //write a function to update the hour in the time blocks
-  //get current time with moment
-
-  //loop over out time block hint: (look up each)
-
-  //check if current time has passed - add class
-  
-  // addClass('past)
-  //check if it is the current time - remove class add class
-  // future time - remove class remove class add class
-
-  //load any saved data from local storage
-//   document.getElementById("123").innerHTML = localStorage.getItem("9AM");
-  //   $('#hour-9 .task').val(localStorage.getItem('9AM'));
 });
